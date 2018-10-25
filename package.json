@@ -1,0 +1,19 @@
+{
+  "name": "unitycourse",
+  "version": "1.0.0",
+  "description": "A following along to the Complete C# Unity Developer 2D course on Udemy; https://www.udemy.com/unitycourse/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cicero72/UnityCourse.git"
+  },
+  "author": "Digital Descartes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cicero72/UnityCourse/issues"
+  },
+  "homepage": "https://github.com/Cicero72/UnityCourse#readme"
+}
