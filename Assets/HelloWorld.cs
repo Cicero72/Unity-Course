@@ -4,39 +4,50 @@ using UnityEngine;
 
 public class helloWorld : MonoBehaviour
 {
-    int max = 1000;
-    int min = 1;
-    int guess = 500;
+    int max;
+    int min;
+    int guess;
 
 
     // Use this for initialization
     void Start()
     {
-        int hitpoints = 20;
-        Debug.Log(hitpoints);
-
+        startGame();
+        max = max + 1;
+        min = min - 1;
     }
-
+    void startGame()
+    {
+        max = 1000;
+        min = 1;
+        guess = 500;
+        Debug.Log("Is it higher or lower than " + guess);
+    }
+    void nextGuess()
+    {
+        guess = (max + min) / 2;
+        Debug.Log("Is it higher or lower than " + guess);
+    }
     // Update is called once per frame
     void Update()
     {
         // Up
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            Debug.Log("Up arrow");
             min = guess;
+            nextGuess();
         }
         // Down
         else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            Debug.Log("Down Arrow");
             max = guess;
+            nextGuess();
         }
         // Enter
         else if (Input.GetKeyDown(KeyCode.Return))
         {
-            Debug.Log("Enter");
-            guess = 700;
+            Debug.Log("You win, congrats!");
+            startGame();
         }
 
     }
