@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07bc06fba9f4d44a24d654a6b82b9e, type: 3}
+  m_Name: A4.ThePlan
+  m_EditorClassIdentifier: 
+  storyText: "As your squad hides behind some brush the commander turns to you and
+    says, \"Since you're a new recruit I'm going to give you an opportunity to prove
+    yourself. What would you do if you had to make this decision?\"\r\n\r\n1. Go around
+    and avoid them \n2. Rush them while they're unprepared  \n3. Use stealth to kill
+    them while they sleep."
+  nextStates:
+  - {fileID: 11400000, guid: 65578cf83c8e2ce4bb3176d027f97d80, type: 2}
+  - {fileID: 11400000, guid: 5aff3f922173cb047a3b26000fab2775, type: 2}
+  - {fileID: 11400000, guid: 0e0bc0b8fe64dd34695baf9f0935d3ae, type: 2}

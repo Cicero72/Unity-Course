@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07bc06fba9f4d44a24d654a6b82b9e, type: 3}
+  m_Name: A1. Start
+  m_EditorClassIdentifier: 
+  storyText: "Centurion: Welcome to the front lines Veles, hope you're happy to leave
+    your confortable life in your Castra, because you have been chosen by Casesar
+    himself to join my squad to scout the forests of Gaul. Now get your gear ready,
+    we're heading out at nightfall.\r\n\r\n--  Space to Continue --"
+  nextStates:
+  - {fileID: 11400000, guid: 7011e1daa3c48e4428bb3de4b486044f, type: 2}

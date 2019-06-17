@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07bc06fba9f4d44a24d654a6b82b9e, type: 3}
+  m_Name: IntroScreen
+  m_EditorClassIdentifier: 
+  storyText: 'You are a new Roman recruit fresh from training and due to your excellent
+    performance was given a direct order from General Iulius Caesar to join a small
+    scouting unit to help map the expansive Gaulic territory.
+
+
+    Your new commander, Claudius, if very interested in helping your military career.
+    It would be very unwise to dissapoint a man like him...
+
+
+    -- Enter to Start --'
+  nextStates:
+  - {fileID: 11400000, guid: 9df45d493865abf4ab16953f7287138e, type: 2}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd07bc06fba9f4d44a24d654a6b82b9e, type: 3}
+  m_Name: B1.Stealth
+  m_EditorClassIdentifier: 
+  storyText: "\"I would wait a few more hours until they're asleep, take out the guards
+    quietly, and cut the other's throats before they realize we're even there. I'm
+    sure Caesar would reward us for our caution and for making the way clearer.\"\r\n\r\nCenturion:
+    \"Take the lead then, I need to see you in action.\"\n\n-- Enter to Continue --"
+  nextStates:
+  - {fileID: 11400000, guid: 920e55ddad6e1de4aa9cbf4924994e99, type: 2}

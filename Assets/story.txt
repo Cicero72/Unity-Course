@@ -1,0 +1,7 @@
+Opening- Centurion: Welcome to the front lines Veles, hope you're happy to leave your confortable life in your Castra, because you have been chosen by Casesar himself to join
+my squad to scout the forests of Gaul. Now get your gear ready, we're heading out at nightfall.
+
+-Choice- What kind of weapons do you use?
+    1. Gladius (short sword)
+    2. Pila (spears)
+    3. Bow
